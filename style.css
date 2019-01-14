@@ -1,0 +1,540 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #444;
+}
+/*Tipografias*/
+h1,h2,h3,h4,h5,h6,p{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.h1{
+    font-weight: 300;
+}
+h2{
+    font-size: 2rem;
+    font-weight: 300;
+}
+h3 {
+    font-size: 1.75rem;
+    font-weight: 300;
+}
+h4{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+h5{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+p {
+    font-weight: 300;
+}
+.card-block .display-1{
+    font-size: 6.25rem;
+}
+
+/*Body*/
+.fondo{
+    background: url('img/pexels-photo-196659.jpeg');
+    height: 92vh;
+    background-position: center;
+    background-size: cover;
+}
+.fondo-2{
+    background-color: rgba(0,0,0,.5);
+    height: 92vh;
+}
+.fondo-3{
+    background: #e9e9e9;
+}
+.fondo-4{
+    background: #8d8d8d;
+}
+.label {
+    top: -1px;
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    padding: 0 4px;
+    vertical-align: middle;
+    font-size: 0.68746875rem;
+    line-height: 1.46;
+    text-transform: uppercase;
+    text-shadow: none;
+    background-color: #00B2BD;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+.label--top_sales {
+    color: #505050;
+    background-color: #FFD100;
+}
+.label--pro, .label--basic {
+    background-color: #a7d129;
+}
+.card a i{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.card{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn-facebook {
+    color: #FFF;
+    background-color: #3B5998;
+    border-color: #3B5998;
+}
+
+.ventajas li {
+    position: relative;
+    margin-bottom: 30px;
+    list-style-type: none;
+}
+.ventajas li i {
+    top: 0;
+    left: 10px;
+    position: absolute;
+    font-size: 54px;
+    color: #B0B0B0;
+}
+/*Body*/
+/*Cards*/
+.card {
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.card .card-image {
+    width: 100%;
+    overflow: hidden;
+    height: 260px;
+    border-radius: 4px 4px 0 0;
+    position: relative;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.card .card-image img {
+    width: 100%;
+}
+
+.card .filter {
+    position: absolute;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.68);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.card .filter .btn {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.card:hover .filter {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.card .btn-hover {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.card:hover .btn-hover {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.card .card-body {
+    padding: 15px 15px 10px 15px;
+}
+
+.card .card-header {
+    padding: 15px 15px 0;
+    background-color: #FFFFFF;
+    border-bottom: none !important;
+}
+
+.card .card-category,
+.card label {
+    font-size: 14px;
+    font-weight: 400;
+    color: #9A9A9A;
+    margin-bottom: 0px;
+}
+
+.card .card-category i,
+.card label i {
+    font-size: 16px;
+}
+
+.card label {
+    font-size: 12px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.card .card-title {
+    margin: 0;
+    color: #333333;
+    font-weight: 300;
+}
+
+.card .avatar {
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.card .description {
+    font-size: 14px;
+    color: #333;
+}
+
+.card .card-footer {
+    padding-top: 0;
+    background-color: transparent;
+    line-height: 30px;
+    border-top: none !important;
+    font-size: 14px;
+}
+
+.card .card-footer .legend {
+    padding: 5px 0;
+}
+
+.card .card-footer hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.card .stats {
+    color: #a9a9a9;
+}
+
+.card .card-footer div {
+    display: inline-block;
+}
+
+.card .author {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.card .author i {
+    font-size: 14px;
+}
+
+.card h6 {
+    font-size: 12px;
+    margin: 0;
+}
+
+.card.card-separator:after {
+    height: 100%;
+    right: -15px;
+    top: 0;
+    width: 1px;
+    background-color: #DDDDDD;
+    position: absolute;
+}
+
+.card .ct-chart {
+    margin: 30px 0 30px;
+    height: 245px;
+}
+
+.card .ct-label {
+    font-size: 1rem !important;
+}
+
+.card .table tbody td:first-child,
+.card .table thead th:first-child {
+    padding-left: 15px;
+}
+
+.card .table tbody td:last-child,
+.card .table thead th:last-child {
+    padding-right: 15px;
+    display: inline-flex;
+}
+
+.card .alert {
+    border-radius: 4px;
+    position: relative;
+}
+
+.card .alert.alert-with-icon {
+    padding-left: 65px;
+}
+
+.card-stats .card-body {
+    padding: 15px 15px 0px;
+}
+
+.card-stats .card-body .numbers {
+    font-size: 1.8rem;
+    text-align: right;
+}
+
+.card-stats .card-body .numbers p {
+    margin-bottom: 0;
+}
+
+.card-stats .card-footer {
+    padding: 0px 15px 10px 15px;
+}
+
+.card-stats .icon-big {
+    font-size: 3em;
+    min-height: 64px;
+}
+
+.card-stats .icon-big i {
+    font-weight: 700;
+    line-height: 59px;
+}
+
+.card-user .card-image {
+    height: 110px;
+}
+
+.card-user .card-image-plain {
+    height: 0;
+    margin-top: 110px;
+}
+
+.card-user .author {
+    text-align: center;
+    text-transform: none;
+    margin-top: -70px;
+}
+
+.card-user .avatar {
+    width: 124px;
+    height: 124px;
+    border: 5px solid #FFFFFF;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.card-user .avatar.border-gray {
+    border-color: #EEEEEE;
+}
+
+.card-user .title {
+    line-height: 24px;
+}
+
+.card-user .card-body {
+    min-height: 240px;
+}
+
+.card-user .card-footer,
+.card-price .card-footer {
+    padding: 5px 15px 10px;
+}
+
+.card-user hr,
+.card-price hr {
+    margin: 5px 15px;
+}
+
+.card-plain {
+    background-color: transparent;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.card-plain .card-image {
+    border-radius: 4px;
+}
+
+.card.card-plain {
+    border: none !important;
+}
+
+.card.card-plain .card-header {
+    background-color: transparent !important;
+}
+
+.footer-seo__section ul li{
+    list-style-type: none ;
+}
+/*Cursos Page*/
+
+.fondo-3 .container p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+aside nav ul li{
+    list-style: none;
+}
+aside nav ul li a{
+    color: black;
+}
+
+/*Proyectos Page*/
+.profile-card-2 .card-img-block{
+    float:left;
+    width:100%;
+    height:150px;
+    overflow:hidden;
+}
+.profile-card-2 .card-body{
+    position:relative;
+}
+
+.profile-card-2 h5{
+    font-weight:600;
+    color:#6ab04c;
+}
+.profile-card-2 .card-text{
+    font-weight:300;
+    font-size:15px;
+}
+.profile-card-2 .icon-block{
+    float:left;
+    width:100%;
+}
+.profile-card-2 .icon-block a{
+    text-decoration:none;
+}
+.profile-card-2 i {
+  display: inline-block;
+    font-size: 16px;
+    color: #6ab04c;
+    text-align: center;
+    border: 1px solid #6ab04c;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    margin:0 5px;
+}
+.profile-card-2 i:hover {
+  background-color:#6ab04c;
+  color:#fff;
+}
+/*Empleos*/
+.trabajo {
+    margin-bottom: 15px;
+    background: #FFF;
+    border-bottom: none;
+    border-radius: 2px;
+    box-shadow: 0 2px 0 rgba(0,0,0,0.15);
+}
+
+.trabajo_header {
+    position: relative;
+    padding: 15px 10px;
+    border-bottom: 1px solid #E8E8E8;
+}
+.trabajo_header h1 {
+    margin: 0;
+}
+.trabajo_header .fecha-publicada {
+    letter-spacing: -0.5px;
+    margin-top: 3px;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.trabajo_header p {
+    margin-bottom: 5px;
+}
+.trabajo_body--no-padded {
+    padding-right: 0;
+    padding-left: 0;
+}
+.lista-trabajos {
+    margin: 0;
+    list-style-type: none;
+}
+.lista-trabajos .trabajo-objeto {
+    min-height: 137px;
+    padding: 25px 30px 25px 186px;
+}
+.lista-trabajos .trabajo-objeto--featured {
+    background-color: #FFFBE7;
+}
+.lista-trabajos .trabajo-objeto {
+    position: relative;
+    min-height: 79px;
+    margin: 0;
+    padding: 10px 30px 10px 86px;
+    border-top: 1px solid #F2F2F2;
+}
+.lista-trabajos .trabajo-objeto--banner {
+    min-height: 0;
+    padding: 40px 30px;
+    padding-bottom: 40px;
+}
+.lista-trabajos .trabajo-objeto__logo {
+    top: 0;
+    left: -66px;
+    position: absolute;
+    width: 126px;
+    height: 96px;
+    overflow: hidden;
+}
+.lista-trabajos .trabajo-objeto__title {
+    display: inline-block;
+    margin-left: 100px;
+
+}
+.lista-trabajos .trabajo-objeto__company {
+    color: #848484;
+    margin-left: 100px;
+
+}
+.lista-trabajos .trabajo-objeto__excerpt {
+    font-size: 0.8124375rem;
+    margin: 10px 0 0;
+    margin-left: 100px;
+}
+.circle-label {
+    position: relative;
+    padding: 0 0 0 16px;
+    vertical-align: middle;
+    font-size: 0.8124375rem;
+    word-wrap: normal;
+}
+.lista-trabajos .trabajo-objeto__city, .lista-trabajos .trabajo-objeto__date {
+    font-size: 0.8124375rem;
+}
+.lista-trabajos .trabajo-objeto__city, .lista-trabajos .trabajo-objeto__date {
+    font-size: 0.8124375rem;
+}
+.lista-trabajos .trabajo-objeto--featured {
+    background-color: #FFFBE7;
+}
+/*Cursos pagina*/
+.curso-img{
+    width: 50%;
+    height: 50%;
+    box-shadow: 5px 10px #888888;
+}
