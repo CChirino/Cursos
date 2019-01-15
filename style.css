@@ -538,3 +538,40 @@ aside nav ul li a{
     height: 50%;
     box-shadow: 5px 10px #888888;
 }
+/*Page Courses*/
+.basic-body__index {
+    margin: 70px 0;
+}
+.basic-courses-list {
+    margin-bottom: 50px;
+    list-style-type: none;
+}
+.basic-courses-list .basic-course-item:first-child {
+    border-top: 1px solid #E8E8E8;
+}
+.basic-courses-list .basic-course-item {
+    position: relative;
+    margin: 0;
+    border-bottom: 1px solid #E8E8E8;
+}
+.basic-courses-list .basic-course-item__title a {
+    display: block;
+    margin-right: 40px;
+    padding: 12px 0;
+    color: #505050;
+}
+.basic-courses-list .basic-course-item__title a.collapsed i {
+    margin-top: 4px;
+    transform: rotate(180deg);
+}
+.basic-courses-list .basic-course-item__title a i {
+    top: 7px;
+    right: 0;
+    position: absolute;
+    font-size: 1.875rem;
+    color: #848484;
+    transition: all 0.25s ease-out;
+}
+.course__units-list {
+    list-style-type: none;
+}
