@@ -575,3 +575,14 @@ aside nav ul li a{
 .course__units-list {
     list-style-type: none;
 }
+/*Pagina de Contacto*/
+.cuadro{
+    margin-bottom: 15px;
+    background: #FFF;
+    border-bottom: none;
+    border-radius: 2px;
+    box-shadow: 0 12px 10px rgba(0,0,0,0.15);
+}
+.cuadro-body{
+    padding: 10px 10px 15px;
+}
