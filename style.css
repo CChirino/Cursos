@@ -586,3 +586,95 @@ aside nav ul li a{
 .cuadro-body{
     padding: 10px 10px 15px;
 }
+/*Pagina Foro*/
+.btn-toolbar {
+    margin-left: -5px;
+    font-size: inherit;
+}
+.page-actions {
+    margin: 0;
+    padding: 0;
+    margin-top: 15px;
+}
+.page-actions li:last-child {
+    margin-right: 0;
+}
+.page-actions li {
+    display: inline-block;
+    margin: 0 20px 5px 0;
+    font-size: 0.8124375rem;
+}
+.link-tertiary, .metadata a, .link-tertiary--underlined, aside h5 a, aside .h5 a {
+    color: #B0B0B0;
+}
+@media only screen and (min-width: 768px){
+.paper {
+    margin-bottom: 30px;
+}
+}
+.paper {
+    margin-bottom: 15px;
+    background: #FFF;
+    border-bottom: none;
+    border-radius: 2px;
+    box-shadow: 0 2px 0 rgba(0,0,0,0.15);
+}
+@media only screen and (min-width: 768px){
+.paper__body--no-padded-h {
+    padding-right: 0;
+    padding-left: 0;
+}
+}
+@media only screen and (min-width: 768px){
+.paper__body--no-padded-bottom {
+    padding-bottom: 0;
+}
+}
+@media only screen and (min-width: 768px){
+.paper__body--no-padded-top {
+    padding-top: 0;
+}
+}
+@media only screen and (min-width: 768px){
+.paper__body {
+    padding: 30px;
+}
+}
+.paper__body--no-padded-h {
+    padding-right: 0;
+    padding-left: 0;
+}
+.paper__body--no-padded-bottom {
+    padding-bottom: 0;
+}
+.paper__body--no-padded-top {
+    padding-top: 0;
+}
+.paper__body {
+    padding: 10px 10px 15px;
+}
+.topics-list {
+    padding: 0;
+    list-style-type: none;
+}
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 10.5px;
+}
+.topics-list .topic-item:first-child {
+    border-top: 0;
+}
+@media only screen and (min-width: 768px){
+.topics-list .topic-item {
+    padding: 13px 30px;
+}
+}
+.topics-list .topic-item {
+    position: relative;
+    margin: 0;
+    border-top: 1px solid #E8E8E8;
+}
+.topic-item__comments ul li{
+    list-style: none;
+    display: inline;
+}
