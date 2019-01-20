@@ -678,3 +678,123 @@ ul, ol {
     list-style: none;
     display: inline;
 }
+/*Pagina Creativo*/
+.users-list {
+    margin: 0;
+    list-style-type: none;
+}
+.users-list>.user-item {
+    margin: 0 0 25px;
+    padding: 0 0 20px;
+    border-bottom: 1px solid #E0E0E0;
+}
+.user-item {
+    position: relative;
+}
+.user-badge--xl {
+    min-height: 94px;
+    padding-left: 123px;
+}
+.user-badge {
+    position: relative;
+}
+.user-badge a {
+    display: inline-block;
+}
+.user-badge .avatar {
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.avatar--xl {
+    width: 96px;
+    height: 96px;
+}
+.avatar {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #E8E8E8;
+    border-radius: 50%;
+    box-sizing: content-box;
+    transition: border 0.25s ease-out;
+}
+.avatar__icon-student--xl {
+    width: 24px;
+    height: 24px;
+    font-size: 0.5625rem;
+    line-height: 26px;
+}
+.avatar__icon-student {
+    top: 0;
+    right: 0;
+    position: absolute;
+    text-align: center;
+    color: #FFF;
+    background-color: #00B2BD;
+    border-radius: 50%;
+}
+
+.user-badge--xl .nickname, .user-badge--xl .permalink {
+    display: inline;
+}
+.user-badge--xl .nickname {
+    font-size: 1.125rem;
+}
+.user-badge .nickname {
+    margin: 0;
+    font-weight: 600;
+    word-break: break-word;
+}
+.user-badge .role, .user-badge .location {
+    display: block;
+    font-size: 0.8124375rem;
+    font-weight: 400;
+    color: #848484;
+}
+.i-space-right-small {
+    margin-right: 3px;
+}
+.user-badge--xl .follow-actions {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.user-badge--xl .follow-button-wrapper {
+    display: inline-block;
+}
+.btn-toolbar>.as-btn {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+.user-badge--xl .follow-actions .btn {
+    margin-top: 0;
+}
+.btn-toolbar>.btn, .btn-toolbar>.btn-group, .btn-toolbar>.input-group {
+    margin-left: 5px;
+}
+.user-badge a {
+    display: inline-block;
+}
+.btn-sm, .btn-group-sm>.btn {
+    padding: 4px 10px;
+    font-size: 0.8124375rem;
+    line-height: 1.125rem;
+    border-radius: 3px;
+}
+.user-badge--xl .user-details {
+    margin-top: 10px;
+}
+.user-badge .user-details {
+    margin-bottom: 0;
+    font-size: 0.8124375rem;
+    color: #848484;
+}
+.projects-list-simple {
+    list-style-type: none;
+}
+.users-list .projects-list-simple .project-item {
+    margin-bottom: 0;
+}
+ul li{
+    list-style: none;
+}
